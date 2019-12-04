@@ -1,0 +1,62 @@
+% Copyright 2019 Clara Eleonore Pavillet
+
+% Author: Clara Eleonore Pavillet
+% Description: This is an unofficial Oxford University Beamer Template I made from scratch. Feel free to use it, modify it, share it.
+% Version: 1.0
+
+\documentclass{beamer}
+\input{Theme/Packages.tex}
+\usetheme{oxonian}
+\setbeamertemplate{background}{\includegraphics[width=\paperwidth, trim = 0 0 0 -17]{Theme/Logos/fondo.png}} % Adding the background logo for the title page
+\title{INGENIERIA INFORMATICA}
+\titlegraphic{\includegraphics[width=4cm]{Theme/Logos/logo-infor-2009.png}}
+\author{VIDA ARTIFICIAL}
+\institute{Univ. Israel Inocente Janijani}
+\date{} %\today
+
+\begin{document}
+
+{\setbeamertemplate{Introduccion}{} 
+\frame{\titlepage}}
+
+\section*{Vida Artificial}\begin{frame}{CAPITULO I}\tableofcontents\end{frame}
+
+
+\subsection{La vida artificial trata de comprender mejor a los seres vivos construyendo y simulando sistemas que exhiben propiedades similares a las de los organismos biológicos. A su vez, esta comprensión nos permite construir sistemas artificiales que pueden adaptarse, evolucionar, aprender y auto-organizarse, tal y como los sistemas vivos.}
+\begin{frame}{Surgimiento de la Vida Artificial}
+La comprensión de lo vivo siempre estuvo dada alrededor de dos posturas bien definidas, una marcadamente vitalista y otra eminentemente analítica. En el primer caso, se consideró que los organismos vivos poseían un principio vital o una fuerza-vida mística que no era explicable desde el marco de la ciencia natural (Emmeche, 1998); en el segundo caso, se pretendió explicar la organización y la dinámica de la vida a través de sus elementos mínimos constitutivos. El vitalismo se considera hoy una creencia cuasi religiosa muerta, mientras que la descripción analítica alcanzó su cúspide con la biología molecular. 
+
+\end{frame}
+
+
+
+  
+\subsection{La filosofía en el modelado de vida artificial difiere de manera importante con el modelado tradicional, ya que no sólo se estudia la vida como la conocemos, sino que también abarca como podría ser la vida.}
+\begin{frame}{CAPITULO II}
+\only<1>{
+Let \(p(x)=\mathcal{N}(\mu\textsubscript{1},\,\sigma^{2}\textsubscript{1})\) and \(q(x)=\mathcal{N}(\mu\textsubscript{2},\,\sigma^{2}\textsubscript{2})\): \\
+\begin{equation}
+\mathcal{N}=\frac{1}{\sigma\,\sqrt{2\,\pi}}\,\E^{-\frac{\left(x-\mu\right)^2}{2\,\sigma^2} }
+\end{equation}}
+\only<2>{
+El problema acerca del estatus científico de la vida artificial puede enunciarse profusamente en los siguientes términos: en la literatura sobre vida artificial son diversos los calificativos asignados al campo, sin que se distinga de forma clara y precisa entre uno y otro, y sin que se haga un desarrollo sistemático del problema, salvo algunos desarrollos aislados, pero parciales (por ejemplo Emmeche, 1998). Algunos prefieren, simplemente, referirse a la vida artifi-cial como un campo de estudio, o mejor aún, abordar su tema de interés sin entrar en la discusión. 
+\begin{align*}
+
+\end{align*}
+}
+\end{frame}
+
+
+  
+\subsection{Fundamentos de la Vida Artificial}
+\begin{frame}[fragile]{CAPITULO III}
+\begin{block}{Síntesis de la investigación en vida artificial}
+\begin{lstlisting}[firstnumber=1, label=glabels, xleftmargin=10pt] 
+La vida artificial no es un campo de investigación unitario, homogéneo o intelectualmente unificado.Por el contrario, debido a factores como la multiplicidad de fenómenos y escalas biológicas que aborda (átomos, mo léculas, organelos, células, tejidos, organismos, sociedades, ecosistemas), la variedad de medios materiales que contempla (software , hardware y wetware)
+
+\end{lstlisting}
+\end{block}
+\end{frame}
+
+\end{document}
+
